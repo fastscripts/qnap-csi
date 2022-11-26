@@ -1,0 +1,7 @@
+- name: Hello Monde
+  # You may pin to the exact commit or the version.
+  # uses: gracekarina/hello-world-docker-action@ec638d68071763f8a86dede2b95f5d7b94388010
+  uses: gracekarina/hello-world-docker-action@v3
+  with:
+    # Who to greet
+    who-to-greet: # default is World
